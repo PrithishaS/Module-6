@@ -15,6 +15,24 @@ To write a Python program that demonstrates class inheritance by creating a pare
 
 ## 💻 PROGRAM:
 
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+class Fish:
+    def swim(self):
+        print("Fish can swim")
+
+class Shark(Fish):
+    def swim(self):
+        print("Shark swims fast")
+
+s = Shark()
+s.swim()
+
 ## OUTPUT
 
+Shark swims fast
+
 ## RESULT
+
+The programs were implemented successfully and the outputs were verified.
