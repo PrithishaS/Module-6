@@ -30,6 +30,28 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 
 ## 💻 Program
 
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    
+    @abstractmethod
+    def area(self):
+        pass
+
+class Square(Shape):
+    def area(self):
+        print("Area of Square")
+
+obj = Square()
+obj.area()
+
 ## Output
 
+Area of Square
+
 ## Result
+
+The programs were implemented successfully and the outputs were verified.
